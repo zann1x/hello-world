@@ -5,5 +5,10 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    title: "lukas zanner - software developer",
+    description: "working student // passionate software developer // spare time game developer // (e)sports guy",
+    author: '@iamzann1x',
+    url: "https://lukaszanner.de"
+  }
 }

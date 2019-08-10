@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #fdfdfd;
+    padding-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Concert One', cursive;
+}
+
+i {
+    margin: 10px 20px 10px 20px;
+    color: #333333;
+}
