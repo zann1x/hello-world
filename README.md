@@ -9,3 +9,16 @@
 </h1>
 
 The website is published at [https://lukaszanner.de](https://lukaszanner.de).
+
+## Getting up and running
+
+**Prerequisites:** NPM & Node.js
+
+1. npm install gatsby
+1. npm install react-bootstrap
+1. npm install gatsby-source-filesystem
+1. npm install gatsby-plugin-sharp
+1. npm install gatsby-transformer-remark
+1. npm install gatsby-remark-images
+1. npm install gatsby-remark-embed-video
+1. npm install gatsby-remark-responsive-iframe
