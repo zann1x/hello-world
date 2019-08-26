@@ -8,7 +8,7 @@
   Personal website built with Gatsby
 </h1>
 
-The website is published at [https://lukaszanner.de](https://lukaszanner.de).
+The website is published at [lukaszanner.de](https://lukaszanner.de).
 
 ## Getting up and running
 
@@ -22,3 +22,4 @@ The website is published at [https://lukaszanner.de](https://lukaszanner.de).
 1. npm install gatsby-remark-images
 1. npm install gatsby-remark-embed-video
 1. npm install gatsby-remark-responsive-iframe
+1. npm install gh-pages --save-dev
