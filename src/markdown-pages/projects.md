@@ -21,20 +21,19 @@ the classic game breakout. implemented with the use of sfml. (c++)
 ![Start screen](/images/breakout_start.png)
 
 - **[GameOfLifeSFML](https://github.com/zann1x/GameOfLifeSFML)**.\
-as everyone has to to do it once i guess, here is conway's game of life. (c++)
+as everyone has to to do it once i guess, here is conway's game of life. (c++) 
 
-![Game](/images/game_of_life.gif)
+<div class="text-center">
+    <img src="https://raw.githubusercontent.com/zann1x/GameOfLifeSFML/master/Screenshots/Game.gif" alt="Game">
+</div>
+<br />
 
 - **[MerelsFX](https://github.com/zann1x/MerelsFX)**.\
 the board game merels implemented with java fx. two players can play against each other on one computer. this project was developed as an admission requirement for an exam at university. (java)
 
 ![Game](/images/merels_game.png)
 
----
-
 ## videos
-
-### competitive battlefield 4
 
 during my time as a professional battlefield 4 player and in-game leader for myKPV, EnRo Griffins and others i recorded some of our matches from my perspective and put the best clips in small movies together.
 

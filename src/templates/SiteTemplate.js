@@ -21,6 +21,7 @@ const SiteTemplate = ({ data }) => {
         <Layout>
             <SEO title={frontmatter.title} />
             <h1>{frontmatter.title}</h1>
+            <hr />
             <div dangerouslySetInnerHTML={{ __html: html }} />
         </Layout>
     )
