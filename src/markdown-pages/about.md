@@ -13,20 +13,12 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 
 ---
 
-## short facts
-
-- age: 21
-- location: hof, germany
-- languages: german (native), english (b1+)
-
----
-
 ## technical skills
 
 **languages**
 - c++
-- java
 - abap
+- java
 - javascript
 
 **frameworks and engines**
@@ -43,35 +35,47 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 
 ---
 
+## open source contributions
+
+**godot engine** \
+fixed a bug in the serialization code ([#29011](https://github.com/godotengine/godot/pull/29011))
+
+**glfw** \
+fixed a typo in the documentation ([#1500](https://github.com/glfw/glfw/pull/1500))
+
+**framegraph** \
+fixed a typo in the documentation ([#6](https://github.com/azhirnov/FrameGraph/pull/6))
+
+
+
+---
+
 ## work experience
 
-**oct 2016 - today** \
-working student - mainly abap development \
-*rödl system integration gmbh - selb, germany*
+**intern** *@ f&p gmbh* \
+sep 2019 - today *// selbitz, germany*
+
+- working on my bachelor's thesis about search engine optimization
+
+**working student** *@ rödl system integration gmbh* \
+oct 2016 - aug 2019 *// selb, germany*
+
+- developed new and maintained existing abap programs for our customers
+- worked on a variety of tasks in the sap support area
 
 ---
 
 ## education
 
-**oct 2016 - exp. mar 2020** \
-b.sc. business information systems (dual study) \
-*university of applied sciences hof - germany*
+**b.sc. business information systems (dual study)** *@ university of applied sciences hof* \
+oct 2016 - exp. mar 2020 *// hof, germany*
 
-**sep 2008 - jun 2016** \
-abitur (grade: 1.6)\
-*otto-hahn-gymnasium marktredwitz - germany*
+**abitur** *@ otto-hahn-gymnasium marktredwitz* \
+sep 2008 - jun 2016 *// marktredwitz, germany*
 
 ---
 
 ## volunteer engagement
 
-**apr 2015 - mar 2016** \
-youth coach \
-*judoclub marktredwitz - germany*
-
----
-
-## open source contributions
-
-- godot engine ([#29011](https://github.com/godotengine/godot/pull/29011)): fixed a bug in the serialization code
-- glfw ([#1500](https://github.com/glfw/glfw/pull/1500)): fixed a typo in the documentation
+**youth coach** *@ judoclub marktredwitz* \
+apr 2015 - mar 2016 *// marktredwitz, germany*

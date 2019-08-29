@@ -48,6 +48,10 @@ const SEO = ({lang, title, description, meta}) => {
                     content: site.siteMetadata.url
                 },
                 {
+                    property: 'og:image',
+                    content: 'https://www.xing.com/image/1_6_e_df6ad2585_27320891_1/lukas-zanner-foto.256x256.jpg'
+                },
+                {
                     property: 'og:site_name',
                     content: 'lukas zanner'
                 },
