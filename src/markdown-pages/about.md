@@ -38,15 +38,13 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 ## open source contributions
 
 **godot engine** \
-fixed a bug in the serialization code ([#29011](https://github.com/godotengine/godot/pull/29011))
+fixed missing padding initialization in the serialization code ([#29011](https://github.com/godotengine/godot/pull/29011))
 
 **glfw** \
-fixed a typo in the documentation ([#1500](https://github.com/glfw/glfw/pull/1500))
+fixed a typo in a method's documentation ([#1500](https://github.com/glfw/glfw/pull/1500))
 
 **framegraph** \
-fixed a typo in the documentation ([#6](https://github.com/azhirnov/FrameGraph/pull/6))
-
-
+fixed a typo in the wiki code ([#6](https://github.com/azhirnov/FrameGraph/pull/6))
 
 ---
 
@@ -55,9 +53,9 @@ fixed a typo in the documentation ([#6](https://github.com/azhirnov/FrameGraph/p
 **intern** *@ f&p gmbh* \
 sep 2019 - today *// selbitz, germany*
 
-- working on my bachelor's thesis about search engine optimization
+- working on my bachelor's thesis in the area of search engine optimization
 
-**working student** *@ rödl system integration gmbh* \
+**working student** *@ rödl & partner (service area management and it consulting)* \
 oct 2016 - aug 2019 *// selb, germany*
 
 - developed new and maintained existing abap programs for our customers
