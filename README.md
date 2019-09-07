@@ -12,5 +12,6 @@ The website is published at [lukaszanner.de](https://lukaszanner.de).
 
 ## Getting up and running
 
-- NPM installed
 - Node.js installed
+- NPM installed
+- Execute *npm ci*
