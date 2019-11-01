@@ -15,3 +15,8 @@ The website is published at [lukaszanner.de](https://lukaszanner.de).
 - Node.js installed
 - NPM installed
 - Execute *npm ci*
+
+---
+
+- `npm run develop` for developing on [localhost:8000](http://localhost:8000)
+- `npm run deploy` for deployment on [lukaszanner.de](https://lukaszanner.de)
