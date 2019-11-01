@@ -3,9 +3,9 @@ path: "/about"
 title: "about"
 ---
 
-hi there, i am lukas. i am currently **studying business information systems** while being employed as a **working student** mainly in the area of sap abap development. outside of this i am a passionate software developer in general.
+hi there, i am lukas. i am currently **studying business information systems** while doing an **internship** as web developer at a company in beautiful **bavaria, germany**. outside of this i am a passionate software developer in general with a love for open source projects.
 
-because of this combined with my past in competitive battlefield i kind of fell in love with **game development** and especially game engine development. that is why even though unrelated to my current employment i try to learn the various concepts around it as much as i can in my spare time. therefore most of my personal projects generally revolve around anything in that area.
+because of that combined with my past in competitive battlefield i kind of fell in love with **game development** and especially game engine development. that is why even though unrelated to my current employment i try to learn the various concepts around it as much as i can in my spare time. therefore most of my personal projects generally revolve around anything in that area.
 
 as you might guess, i also enjoy **gaming** and **esports**. but that should be the case for anyone with a competitive esports background or anyone creating games and the software for it actually.
 
@@ -17,6 +17,7 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 
 **languages**
 - c++
+- php
 - abap
 - java
 - javascript
@@ -25,10 +26,12 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 - vulkan
 - opengl
 - unreal engine 4
+- nuxtjs
 - gatsbyjs
 
 **software**
 - git
+- docker
 - jenkins
 - perforce
 - sap erp
