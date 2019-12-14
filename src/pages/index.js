@@ -23,7 +23,7 @@ export default () => (
         </Row>
         <Row>
             <Col md={{ span: 6, offset: 3 }} className="text-center" style={{ borderStyle: "solid", borderWidth: "5px", borderColor: "#292929", marginTop: "20px", marginBottom: "1em", padding: "15px", fontSize: "1.1em" }}>
-                <p>working student // software developer // spare time game developer // (e)sports guy</p>
+                <p>software developer // spare time game developer // (e)sports guy</p>
             </Col>
         </Row>
     </Layout>

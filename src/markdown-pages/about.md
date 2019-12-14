@@ -49,6 +49,9 @@ fixed a typo in a method's documentation ([#1500](https://github.com/glfw/glfw/p
 **framegraph** \
 fixed a typo in the wiki code ([#6](https://github.com/azhirnov/FrameGraph/pull/6))
 
+**web fundamentals** \
+removed a duplicate line from the documentation ([#8308](https://github.com/google/WebFundamentals/pull/8308))
+
 ---
 
 ## work experience
@@ -56,13 +59,13 @@ fixed a typo in the wiki code ([#6](https://github.com/azhirnov/FrameGraph/pull/
 **intern** *@ f&p gmbh* \
 sep 2019 - today *// selbitz, germany*
 
-- working on my bachelor's thesis in the area of search engine optimization
+- working on my bachelor's thesis in the area of automated search engine optimization tests
 
 **working student** *@ rödl & partner (service area management and it consulting)* \
 oct 2016 - aug 2019 *// selb, germany*
 
-- developed new and maintained existing abap programs for our customers
 - worked on a variety of tasks in the sap support area
+- developed new and maintained existing abap programs for our customers
 
 ---
 

@@ -7,7 +7,7 @@
 module.exports = {
   siteMetadata: {
     title: "lukas zanner - software developer",
-    description: "working student // software developer // spare time game developer // (e)sports guy",
+    description: "software developer // spare time game developer // (e)sports guy",
     author: '@iamzann1x',
     url: "https://lukaszanner.de"
   },
