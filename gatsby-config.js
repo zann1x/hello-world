@@ -29,6 +29,13 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow noopener"
+            }
+          },
+          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 560
