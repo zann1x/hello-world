@@ -10,11 +10,9 @@ const Layout = ({ children }) => {
             <Head />
             <Header />
             <div style={{ display: "flex", minHeight: "100vh", flexDirection: "column" }}>
-                <div style={{ paddingTop: "5rem", flexGrow: "1" }}>
-                    <Container>
-                        {children}
-                    </Container>
-                </div>
+                <Container style={{ width:"90%", flexGrow: "1" }}>
+                    {children}
+                </Container>
                 <Footer />
             </div>
         </>

@@ -7,9 +7,12 @@
 module.exports = {
   siteMetadata: {
     title: "lukas zanner - software developer",
-    description: "software developer // spare time game developer // (e)sports guy",
-    author: '@iamzann1x',
-    url: "https://lukaszanner.de"
+    description: "lukas zanner | software developer // spare time game developer // (e)sports guy",
+    author: 'Lukas Zanner',
+    url: "https://lukaszanner.de",
+    social: {
+      twitter: '@iamzann1x'
+    }
   },
   plugins: [
     `gatsby-plugin-sharp`,

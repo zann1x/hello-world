@@ -1,6 +1,6 @@
 ---
 path: "/about"
-title: "about"
+title: "about me"
 ---
 
 hi there, i am lukas. i am currently **studying business information systems** while doing an **internship** as web developer at a company in beautiful **bavaria, germany**. outside of this i am a passionate software developer in general with a love for open source projects.

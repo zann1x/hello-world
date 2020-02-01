@@ -19,10 +19,12 @@ const SiteTemplate = ({ data }) => {
 
     return (
         <Layout>
-            <SEO title={frontmatter.title} />
-            <h1>{frontmatter.title}</h1>
-            <hr />
-            <div dangerouslySetInnerHTML={{ __html: html }} />
+            <div style={{ paddingTop: "5rem" }}>
+                <SEO title={frontmatter.title} />
+                <h1>{frontmatter.title}</h1>
+                <hr />
+                <div dangerouslySetInnerHTML={{ __html: html }} />
+            </div>
         </Layout>
     )
 }

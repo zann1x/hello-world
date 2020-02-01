@@ -13,6 +13,9 @@ const SEO = ({lang, title, description, meta}) => {
                         description
                         author
                         url
+                        social {
+                            twitter
+                        }
                     }
                 }
             }
@@ -24,7 +27,7 @@ const SEO = ({lang, title, description, meta}) => {
     return (
         <Helmet
             htmlAttributes={{ lang }}
-            title={title}
+            title={title ||  site.siteMetadata.title}
             titleTemplate={`%s | ${site.siteMetadata.title}`}
             meta={[
                 {
@@ -37,7 +40,7 @@ const SEO = ({lang, title, description, meta}) => {
                 },
                 {
                     property: 'og:title',
-                    content: title
+                    content: site.siteMetadata.title
                 },
                 {
                     property: 'og:type',
@@ -53,7 +56,7 @@ const SEO = ({lang, title, description, meta}) => {
                 },
                 {
                     property: 'og:site_name',
-                    content: 'lukas zanner'
+                    content: site.siteMetadata.title
                 },
                 {
                     name: 'twitter:card',
@@ -61,15 +64,15 @@ const SEO = ({lang, title, description, meta}) => {
                 },
                 {
                     name: 'twitter:creator',
-                    content: site.siteMetadata.author
+                    content: site.siteMetadata.social.twitter
                 },
                 {
                     name: 'twitter:site',
-                    content: site.siteMetadata.author
+                    content: site.siteMetadata.social.twitter
                 },
                 {
                     name: 'twitter:title',
-                    content: title
+                    content: site.siteMetadata.title
                 },
                 {
                     name: 'twitter:description',
@@ -82,7 +85,7 @@ const SEO = ({lang, title, description, meta}) => {
 
 SEO.propTypes = {
     lang: PropTypes.string,
-    title: PropTypes.string.isRequired,
+    title: PropTypes.string,
     description: PropTypes.string,
     meta: PropTypes.arrayOf(PropTypes.object)
 }
