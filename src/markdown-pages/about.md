@@ -59,10 +59,13 @@ removed a duplicate line from the documentation ([#8308](https://github.com/goog
 
 ## work experience
 
-**intern** *@ f&p gmbh* \
-sep 2019 - today *// selbitz, germany*
+**working student** *@ f&p gmbh* \
+feb 2020 - today *// selbitz, germany*
 
-- working on my bachelor's thesis in the area of automated search engine optimization tests
+**intern** *@ f&p gmbh* \
+sep 2019 - jan 2020 *// selbitz, germany*
+
+- worked on my bachelor's thesis in the area of automated search engine optimization tests
 
 **working student** *@ rödl & partner (service area management and it consulting)* \
 oct 2016 - aug 2019 *// selb, germany*
