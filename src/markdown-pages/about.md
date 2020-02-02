@@ -43,6 +43,9 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 **godot engine** \
 fixed missing padding initialization in the serialization code ([#29011](https://github.com/godotengine/godot/pull/29011))
 
+**netlify cms** \
+added missing german translations ([#3179](https://github.com/netlify/netlify-cms/pull/3179))
+
 **glfw** \
 fixed a typo in a method's documentation ([#1500](https://github.com/glfw/glfw/pull/1500))
 
