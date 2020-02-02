@@ -62,6 +62,8 @@ removed a duplicate line from the documentation ([#8308](https://github.com/goog
 **working student** *@ f&p gmbh* \
 feb 2020 - today *// selbitz, germany*
 
+- working as a web developer on one of the biggest german platforms
+
 **intern** *@ f&p gmbh* \
 sep 2019 - jan 2020 *// selbitz, germany*
 
