@@ -18,15 +18,14 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 **languages**
 - c++
 - php
-- abap
 - java
+- abap
 - javascript
 
 **frameworks and engines**
 - vulkan
 - opengl
 - unreal engine 4
-- nuxtjs
 - gatsbyjs
 
 **software**
@@ -41,19 +40,17 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 ## open source contributions
 
 **godot engine** \
-fixed missing padding initialization in the serialization code ([#29011](https://github.com/godotengine/godot/pull/29011))
+fixed missing padding initialization in the serialization code ([PR #29011](https://github.com/godotengine/godot/pull/29011))
 
 **netlify cms** \
-added missing german translations ([#3179](https://github.com/netlify/netlify-cms/pull/3179))
+added missing german translations ([PR #3179](https://github.com/netlify/netlify-cms/pull/3179))
 
-**glfw** \
-fixed a typo in a method's documentation ([#1500](https://github.com/glfw/glfw/pull/1500))
+**everything else** *(typo fixes or similar)*
 
-**framegraph** \
-fixed a typo in the wiki code ([#6](https://github.com/azhirnov/FrameGraph/pull/6))
-
-**web fundamentals** \
-removed a duplicate line from the documentation ([#8308](https://github.com/google/WebFundamentals/pull/8308))
+- **glfw** ([PR #1500](https://github.com/glfw/glfw/pull/1500))
+- **scrapengine** ([PR #34](https://github.com/ScrappyCocco/ScrapEngine/pull/34))
+- **framegraph** ([PR #6](https://github.com/azhirnov/FrameGraph/pull/6))
+- **web fundamentals** ([PR  #8308](https://github.com/google/WebFundamentals/pull/8308))
 
 ---
 
