@@ -76,8 +76,11 @@ oct 2016 - aug 2019 *// selb, germany*
 
 ## education
 
+**m.sc. informatics** *@ university of applied sciences hof* \
+mar 2020 - exp. sep 2021 *// hof, germany*
+
 **b.sc. business information systems (dual study)** *@ university of applied sciences hof* \
-oct 2016 - exp. mar 2020 *// hof, germany*
+oct 2016 - mar 2020 *// hof, germany*
 
 **abitur** *@ otto-hahn-gymnasium marktredwitz* \
 sep 2008 - jun 2016 *// marktredwitz, germany*
