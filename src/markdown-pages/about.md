@@ -3,7 +3,7 @@ path: "/about"
 title: "about me"
 ---
 
-hi there, i am lukas. i am currently **studying business information systems** while doing an **internship** as web developer at a company in beautiful **bavaria, germany**. outside of this i am a passionate software developer in general with a love for open source projects.
+hi there, i am lukas. i am currently taking a **master's in informatics** while being employed as a web developer at a company in beautiful **bavaria, germany**. outside of this i am a passionate software developer in general with a love for open source projects.
 
 because of that combined with my past in competitive battlefield i kind of fell in love with **game development** and especially game engine development. that is why even though unrelated to my current employment i try to learn the various concepts around it as much as i can in my spare time. therefore most of my personal projects generally revolve around anything in that area.
 
