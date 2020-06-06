@@ -15,10 +15,6 @@ const Head = () => (
             integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
             crossorigin="anonymous"
         />
-        <link
-            href="https://fonts.googleapis.com/css?family=Inconsolata%7COpen+Sans%7CConcert+One" 
-            rel="stylesheet"
-        />
     </Helmet>
 )
 
