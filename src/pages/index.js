@@ -5,6 +5,10 @@ import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
 import SocialLink from "../components/social-link";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faGithub, faLinkedin, faXing } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+
 const IndexPage = ({ data }) => (
     <Layout>
         <SEO />
@@ -17,10 +21,18 @@ const IndexPage = ({ data }) => (
                 </Row>
                 <Row>
                     <Col xs={12} className="text-center">
-                        <SocialLink link="mailto:mail@lukaszanner.de" title="Email" logoClass="fas fa-envelope fa-3x" />
-                        <SocialLink link="https://github.com/zann1x" title="Github" logoClass="fab fa-github fa-3x" />
-                        <SocialLink link="https://linkedin.com/in/lukas-zanner" title="LinkedIn" logoClass="fab fa-linkedin fa-3x" />
-                        <SocialLink link="https://www.xing.com/profile/Lukas_Zanner" title="XING" logoClass="fab fa-xing fa-3x" />
+                        <SocialLink link="mailto:mail@lukaszanner.de" title="Email" logoClass="fas fa-envelope fa-3x">
+                            <FontAwesomeIcon icon={faEnvelope} size="3x" />
+                        </SocialLink>
+                        <SocialLink link="https://github.com/zann1x" title="Github" logoClass="fab fa-github fa-3x">
+                            <FontAwesomeIcon icon={faGithub} size="3x" />
+                        </SocialLink>
+                        <SocialLink link="https://linkedin.com/in/lukas-zanner" title="LinkedIn" logoClass="fab fa-linkedin fa-3x">
+                            <FontAwesomeIcon icon={faLinkedin} size="3x" />
+                        </SocialLink>
+                        <SocialLink link="https://www.xing.com/profile/Lukas_Zanner" title="XING" logoClass="fab fa-xing fa-3x">
+                            <FontAwesomeIcon icon={faXing} size="3x" />
+                        </SocialLink>
                     </Col>
                 </Row>
                 <Row>
