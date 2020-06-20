@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav"
 
 const Header = () => (
     <Navbar collapseOnSelect expand="lg" fixed="top" variant="dark" style={{ fontFamily:"'Inconsolata', monospace", backgroundColor: "#222" }}>
-        <Navbar.Brand href="/" style={{ color: "#00ff00" }}>lukas@home ~ $</Navbar.Brand>
+        <Navbar.Brand href="/" style={{ color: "#00ff00" }}>lukas@void ~ $</Navbar.Brand>
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav-menu" />
         <Navbar.Collapse id="responsive-navbar-nav-menu" className="justify-content-end">
