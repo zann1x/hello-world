@@ -42,5 +42,7 @@ jobs:
         build_dir: public
         # The author name and email address
         author: Lukas Zanner <git@lukaszanner.de>
+        # Create incremental commit instead of doing push force
+        keep_history: false
       env:
         GH_PAT: ${{ secrets.GH_PAT }}
