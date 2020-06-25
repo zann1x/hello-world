@@ -1,11 +1,4 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Personal website built with Gatsby
-</h1>
+# Hello world! (personal website)
 
 ![Deploy status](https://github.com/zann1x/hello-world/workflows/Deploy/badge.svg)
 
@@ -15,9 +8,5 @@ The website is published at [lukaszanner.de](https://lukaszanner.de).
 
 - Node.js installed
 - NPM installed
-- Execute *npm ci*
-
----
-
-- `npm run develop` for developing on [localhost:8000](http://localhost:8000)
-- `npm run deploy` for deployment on [lukaszanner.de](https://lukaszanner.de)
+- Execute `npm ci` to install all necessary dependencies
+- Execute `npm run develop` for developing on [localhost:8000](http://localhost:8000)
