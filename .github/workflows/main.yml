@@ -31,10 +31,11 @@ jobs:
         echo Finished building
 
     - name: Publish to Github Pages
+      if: success()
       uses: crazy-max/ghaction-github-pages@v2.0.1
       with:
         # GitHub repository where assets will be deployed (default current)
-        repo: https://github.com/zann1x/zann1x.github.io
+        repo: zann1x/zann1x.github.io
         # Git branch where assets will be deployed
         target_branch: master
         # Build directory to deploy
