@@ -7,6 +7,8 @@
   Personal website built with Gatsby
 </h1>
 
+![CI](https://github.com/zann1x/hello-world/workflows/CI/badge.svg)
+
 The website is published at [lukaszanner.de](https://lukaszanner.de).
 
 ## Getting up and running
