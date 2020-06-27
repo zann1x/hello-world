@@ -15,18 +15,3 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Concert One', cursive;
 }
-
-.social-link {
-    color: #333333;
-}
-.social-link > svg {
-    margin: 10px 20px 10px 20px;
-}
-
-.main-disclaimer {
-    margin: 0.5rem 0;
-}
-
-.named-anchor {
-    padding-top: 5rem;
-}

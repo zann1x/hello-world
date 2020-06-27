@@ -1,22 +1,23 @@
-import React from "react"
-import Header from "./header"
-import Footer from "./footer"
-import Head from "./head"
-import Container from "react-bootstrap/Container"
+import React from "react";
+import Head from "./head";
+import Header from "./header";
+import Footer from "./footer";
+
+import styles from "./layout.module.css";
 
 const Layout = ({ children }) => {
     return (
         <>
             <Head />
             <Header />
-            <div style={{ display: "flex", minHeight: "100vh", flexDirection: "column" }}>
-                <Container style={{ width:"90%", flexGrow: "1" }}>
+            <div className={styles.layout}>
+                <div className={styles.container}>
                     {children}
-                </Container>
+                </div>
                 <Footer />
             </div>
         </>
-    )
+    );
 }
 
 export default Layout

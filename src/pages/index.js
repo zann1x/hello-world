@@ -1,26 +1,26 @@
-import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+import React from "react";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 import SocialLink from "../components/social-link";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub, faLinkedin, faXing } from "@fortawesome/free-brands-svg-icons"
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedin, faXing } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+import styles from "./index.module.css";
 
 const IndexPage = ({ data }) => (
     <Layout>
         <SEO />
-        <Row className="vh-100">
-            <Col className="align-self-center">
-                <Row>
-                    <Col xs={12} className="text-center">
-                        <h1 style={{ fontSize: "5em" }}>LUKAS ZANNER</h1>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col xs={12} className="text-center">
+        <div className={styles.main_area}>
+            <div className={styles.teaser_area}>
+                <div className={styles.row}>
+                    <div className={styles.teaser_content}>
+                        <h1 className={styles.main_heading}>LUKAS ZANNER</h1>
+                    </div>
+                </div>
+                <div className={styles.row}>
+                    <div className={styles.teaser_content}>
                         <SocialLink link="mailto:hi@lukaszanner.de" title="Email">
                             <FontAwesomeIcon icon={faEnvelope} size="3x" />
                         </SocialLink>
@@ -33,21 +33,21 @@ const IndexPage = ({ data }) => (
                         <SocialLink link="https://www.xing.com/profile/Lukas_Zanner" title="XING">
                             <FontAwesomeIcon icon={faXing} size="3x" />
                         </SocialLink>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col md={{ span: 6, offset: 3 }} className="text-center" style={{ borderStyle: "solid", borderWidth: "5px", borderColor: "#292929", marginTop: "20px", marginBottom: "1em", padding: "15px", fontSize: "1.1em" }}>
-                        <p className="main-disclaimer">software developer // spare time game developer // (e)sports guy</p>
-                    </Col>
-                </Row>
-            </Col>
-        </Row>
+                    </div>
+                </div>
+                <div className={styles.row}>
+                    <div className={styles.disclaimer_box}>
+                        <p className={styles.disclaimer_text}>software developer // spare time game developer // (e)sports guy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <Row name="about" className="named-anchor">
+        <div name="about" className={styles.about_heading}>
             <h1>about me</h1>
             <hr />
             <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}></div>
-        </Row>
+        </div>
     </Layout>
 );
 

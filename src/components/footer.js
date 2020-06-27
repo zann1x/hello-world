@@ -1,9 +1,10 @@
-import React from "react"
+import React from "react";
+import styles from "./footer.module.css";
 
 const Footer = () => (
-    <footer className="text-center" style={{ backgroundColor: "#f5f5f5", padding: "10px", height: "50px", display: "block" }}>
+    <footer className={styles.footer}>
         © {new Date().getFullYear()} Lukas Zanner - powered by <a href="https://www.gatsbyjs.org">Gatsby</a> and <a href="https://github.com/LordMathis/hugo-theme-nix">Nix</a>
     </footer>
-)
+);
 
-export default Footer
+export default Footer;
