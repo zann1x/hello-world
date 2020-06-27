@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => (
                 </Row>
                 <Row>
                     <Col xs={12} className="text-center">
-                        <SocialLink link="mailto:mail@lukaszanner.de" title="Email" logoClass="fas fa-envelope fa-3x">
+                        <SocialLink link="mailto:hi@lukaszanner.de" title="Email" logoClass="fas fa-envelope fa-3x">
                             <FontAwesomeIcon icon={faEnvelope} size="3x" />
                         </SocialLink>
                         <SocialLink link="https://github.com/zann1x" title="Github" logoClass="fab fa-github fa-3x">
