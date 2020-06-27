@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => (
                         <SocialLink link="mailto:hi@lukaszanner.de" title="Email">
                             <FontAwesomeIcon icon={faEnvelope} size="3x" />
                         </SocialLink>
-                        <SocialLink link="https://github.com/zann1x" title="Github">
+                        <SocialLink link="https://github.com/zann1x" title="GitHub">
                             <FontAwesomeIcon icon={faGithub} size="3x" />
                         </SocialLink>
                         <SocialLink link="https://linkedin.com/in/lukas-zanner" title="LinkedIn">
