@@ -21,16 +21,16 @@ const IndexPage = ({ data }) => (
                 </Row>
                 <Row>
                     <Col xs={12} className="text-center">
-                        <SocialLink link="mailto:hi@lukaszanner.de" title="Email" logoClass="fas fa-envelope fa-3x">
+                        <SocialLink link="mailto:hi@lukaszanner.de" title="Email">
                             <FontAwesomeIcon icon={faEnvelope} size="3x" />
                         </SocialLink>
-                        <SocialLink link="https://github.com/zann1x" title="Github" logoClass="fab fa-github fa-3x">
+                        <SocialLink link="https://github.com/zann1x" title="Github">
                             <FontAwesomeIcon icon={faGithub} size="3x" />
                         </SocialLink>
-                        <SocialLink link="https://linkedin.com/in/lukas-zanner" title="LinkedIn" logoClass="fab fa-linkedin fa-3x">
+                        <SocialLink link="https://linkedin.com/in/lukas-zanner" title="LinkedIn">
                             <FontAwesomeIcon icon={faLinkedin} size="3x" />
                         </SocialLink>
-                        <SocialLink link="https://www.xing.com/profile/Lukas_Zanner" title="XING" logoClass="fab fa-xing fa-3x">
+                        <SocialLink link="https://www.xing.com/profile/Lukas_Zanner" title="XING">
                             <FontAwesomeIcon icon={faXing} size="3x" />
                         </SocialLink>
                     </Col>
