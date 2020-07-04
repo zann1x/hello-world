@@ -3,11 +3,9 @@ path: "/about"
 title: "about me"
 ---
 
-hi there, i am lukas. i am currently taking a **master's in informatics** while being employed as a web developer at a company in beautiful **bavaria, germany**. outside of this i am a passionate software developer in general with a love for open source projects.
+hi there, i am lukas. i am currently **studying informatics** while being employed as a working student in the **web development** area at a company in beautiful bavaria, germany. outside of this i am a passionate software developer in general with a love for open source projects and low level programming.
 
-because of that combined with my past in competitive battlefield i kind of fell in love with **game development** and especially game engine development. that is why even though unrelated to my current employment i try to learn the various concepts around it as much as i can in my spare time. therefore most of my personal projects generally revolve around anything in that area.
-
-as you might guess, i also enjoy **gaming** and **esports**. but that should be the case for anyone with a competitive esports background or anyone creating games and the software for it actually.
+because of that combined with my past in competitive battlefield i kind of fell in love with **game development** and especially game engine development. that is why even though unrelated to my current employment i try to learn the various concepts around it as much as i can in my spare time. therefore most of my personal projects generally revolve around anything in that area. as you might guess, i also enjoy **gaming** and **esports**.
 
 besides that i am just a guy spending his time on the things he enjoys the most. this means that you can usually spot me at one of the following places: at my computer **working on some side project**, in the gym **working out** or on the golf course **trying to not lose too many golf balls**.
 
@@ -19,6 +17,8 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 - php
 - c
 - java
+- c++
+- c#
 - abap
 - javascript
 
@@ -26,13 +26,13 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 - vulkan
 - opengl
 - unreal engine 4
+- unity
 - gatsbyjs
 
 **software**
 - git
 - docker
 - jenkins
-- perforce
 - sap erp
 
 ---
@@ -59,12 +59,12 @@ added missing german translations ([PR #3179](https://github.com/netlify/netlify
 **working student** *@ f&p gmbh* \
 feb 2020 - today
 
-- working as a web developer on one of the biggest german platforms
+- working as a web developer on one of the biggest german platforms with a focus on search engine optimization
 
 **intern** *@ f&p gmbh* \
 sep 2019 - jan 2020
 
-- worked on my bachelor's thesis in the area of automated search engine optimization tests
+- worked on my bachelor's thesis on the topic of "automated search engine optimization using automated frontend tests"
 
 **working student** *@ rödl & partner (service area management and it consulting)* \
 oct 2016 - aug 2019
@@ -76,8 +76,8 @@ oct 2016 - aug 2019
 
 ## education
 
-**m.sc. informatics** *@ university of applied sciences hof* \
+**msc informatics** *@ university of applied sciences hof* \
 mar 2020 - exp. sep 2021
 
-**b.sc. business information systems (dual study)** *@ university of applied sciences hof* \
+**bsc business information systems (dual study)** *@ university of applied sciences hof* \
 oct 2016 - mar 2020
