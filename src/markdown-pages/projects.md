@@ -32,7 +32,7 @@ i suppose that everyone has to to do it once, so there you go, ladies and gentle
 
 ## videos
 
-during my time as a professional battlefield 4 player and in-game leader for myKPV, EnRo Griffins and others i recorded some of our matches from my perspective and put the best clips in small movies together.
+during my time as a semi-professional battlefield 4 player and in-game leader for myKPV, EnRo Griffins and others i recorded some of our matches from my perspective and put the best clips in small movies together.
 
 `youtube: 9CjRVXtN4Lg`
 
