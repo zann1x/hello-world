@@ -38,7 +38,7 @@ const IndexPage = ({ data }) => (
                 </div>
                 <div className={styles.row}>
                     <div className={styles.disclaimer_box}>
-                        <p className={styles.disclaimer_text}>software developer // spare time game developer // (e)sports guy</p>
+                        <p className={styles.disclaimer_text}>informatics student // software developer</p>
                     </div>
                 </div>
             </div>

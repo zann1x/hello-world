@@ -18,7 +18,6 @@ besides that i am just a guy spending his time on the things he enjoys the most.
 - c
 - java
 - c++
-- c#
 - abap
 - javascript
 
