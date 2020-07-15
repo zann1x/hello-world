@@ -5,7 +5,7 @@ title: "projects"
 
 ## dev
 
-- **[jarp](https://github.com/zann1x/hello-world)** \
+- **[hello-world](https://github.com/zann1x/hello-world)** \
 the source code for this website. not more, not less. (javascript)
 
 - **[potter](https://github.com/zann1x/Potter)** \
