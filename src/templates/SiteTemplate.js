@@ -1,6 +1,6 @@
 import React from "react";
-import { graphql } from "gatsby";
-import Layout from "../components/layout";
+import { graphql, Link } from "gatsby";
+import Layout from "../layouts/layout";
 import SEO from "../components/seo";
 
 import styles from "./SiteTemplate.module.css";
@@ -21,12 +21,11 @@ const SiteTemplate = ({ data }) => {
 
     return (
         <Layout>
-            <div className={styles.main_area}>
-                <SEO title={frontmatter.title} />
-                <h1>{frontmatter.title}</h1>
-                <hr />
-                <div dangerouslySetInnerHTML={{ __html: html }} />
-            </div>
+            <SEO title={frontmatter.title} />
+            {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
+            <header><Link to="/">// back home</Link></header>
+            <h1>{frontmatter.title}</h1>
+            <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
         </Layout>
     );
 }

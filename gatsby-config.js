@@ -6,8 +6,8 @@
 
 module.exports = {
   siteMetadata: {
-    title: "lukas zanner - software developer",
-    description: "lukas zanner | software developer // spare time game developer // (e)sports guy",
+    title: "lukas zanner // software developer",
+    description: "lukas zanner // informatics student - software developer - low level tech enthusiast - spare time game developer - (e)sports guy",
     author: 'Lukas Zanner',
     url: "https://lukaszanner.de",
     social: {
@@ -32,7 +32,7 @@ module.exports = {
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_blank",
-              rel: "nofollow noopener"
+              rel: "noopener noreferrer"
             }
           },
           {

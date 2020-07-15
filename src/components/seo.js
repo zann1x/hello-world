@@ -28,7 +28,7 @@ const SEO = ({lang, title, description, meta}) => {
         <Helmet
             htmlAttributes={{ lang }}
             title={title ||  site.siteMetadata.title}
-            titleTemplate={`%s | ${site.siteMetadata.title}`}
+            titleTemplate={`%s - ${site.siteMetadata.title}`}
             meta={[
                 {
                     name: 'description',

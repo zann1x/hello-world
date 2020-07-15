@@ -1,14 +1,19 @@
 import React from "react";
-import Layout from "../components/layout";
+import { Link } from "gatsby";
+
 import SEO from "../components/seo";
+import Layout from "../layouts/layout";
 
 import styles from "./404.module.css";
 
 const NotFound = () => (
     <Layout>
-        <SEO title="404 - Not found" />
-        <h1 className={styles.heading}>uhm... WHAT?</h1>
-        <p>looks like you're lost. this page doesn't exist.</p>
+        <SEO title="Not found" />
+        {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
+        <header><Link to="/">// back home</Link></header>
+        <div className={styles.content}>
+            <p>looks like you got lost</p>
+        </div>
     </Layout>
 );
 

@@ -1,4 +1,2 @@
-import "typeface-concert-one";
-import "typeface-inconsolata";
-import "typeface-open-sans";
+import "typeface-source-code-pro";
 import "./src/styles/global.css";

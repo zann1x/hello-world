@@ -7,11 +7,33 @@ html {
 }
 
 body {
-    background-color: #fdfdfd;
+    background-color: #2e2e2e;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    color: #ececec;
+    font-family: 'Source Code Pro';
+    line-height: 1.2rem;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Concert One', cursive;
+h1 {
+    text-align: center;
+}
+h1, h2, h3 {
+    font-size: inherit;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+
+a {
+    color: inherit;
+}
+a:hover {
+    color: #bebebe;
+}
+
+p {
+    padding-bottom: 0.25rem;
+}
+
+ul {
+    padding-bottom: 0.5rem;
 }
