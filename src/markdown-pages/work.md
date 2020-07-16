@@ -12,7 +12,7 @@ title: "work"
 <section>
     <h3><strong>intern</strong> @ <em>f&amp;p gmbh</em></h3>
     <p>sep 2019 - jan 2020</p>
-    <p>worked on my bachelor's thesis on the topic of "automated search engine optimization using automated frontend tests";</p>
+    <p>worked on my bachelor's thesis on the topic of "technical search engine optimization using automated frontend tests";</p>
 </section>
 
 <section>
