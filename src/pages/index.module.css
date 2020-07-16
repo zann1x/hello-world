@@ -14,24 +14,16 @@
 .blocks {
     height: auto;
     text-align: center;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .link_block, .contact_block {
     display: inline-block;
     vertical-align: top;
-    padding: 0.5rem 2.5rem;
+    padding: 1rem 2rem;
     text-align: left;
 }
-@media screen and (min-width: 306px) {
-    .link_block {
-        padding-left: 0;
-    }
-    .contact_block {
-        padding-right: 0;
-    }
-}
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 365px) {
     .link_block {
         padding-left: 2.5rem;
     }
