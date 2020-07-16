@@ -51,10 +51,6 @@ title: "projects"
 
 `youtube: 9CjRVXtN4Lg`
 
-<br>
-
 `youtube: A1LP6CDk868`
-
-<br>
 
 `youtube: Eog3q3UNxCM`
