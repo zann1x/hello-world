@@ -10,7 +10,7 @@ body {
     background-color: #2e2e2e;
     height: 100%;
     color: #ececec;
-    font-family: 'Source Code Pro';
+    font-family: 'Lucida Console', Monaco, monospace;
     line-height: 1.2rem;
 }
 
@@ -31,7 +31,7 @@ a:hover {
 }
 
 p {
-    padding-bottom: 0.25rem;
+    padding-bottom: 0.5rem;
 }
 
 ul {
