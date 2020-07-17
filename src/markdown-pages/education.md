@@ -1,7 +1,7 @@
 ---
 path: "/education/"
 title: "education"
-description: "asd"
+description: "what i did in order to have a degree with my name on it"
 ---
 
 <section>

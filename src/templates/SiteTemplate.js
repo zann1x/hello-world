@@ -22,7 +22,7 @@ const SiteTemplate = ({ data }) => {
 
     return (
         <Layout>
-            <SEO title={frontmatter.title} />
+            <SEO title={frontmatter.title} description={frontmatter.description} />
             {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
             <header><Link to="/">// back home</Link></header>
             <h1>{frontmatter.title}</h1>

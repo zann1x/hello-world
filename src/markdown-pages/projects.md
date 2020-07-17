@@ -1,7 +1,7 @@
 ---
 path: "/projects/"
 title: "projects"
-description: "asd"
+description: "some of my personal projects i worked on in my free time"
 ---
 
 <section>

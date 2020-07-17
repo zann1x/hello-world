@@ -1,7 +1,7 @@
 ---
 path: "/work/"
 title: "work"
-description: "asd"
+description: "an overview over my professional career so far"
 ---
 
 <section>

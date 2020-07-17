@@ -1,14 +1,14 @@
 ---
 path: "/about/"
 title: "about me"
-description: "asd"
+description: "everything you need to know about me regarding what i do and what i like"
 ---
 
 <section>
     <p>hi there, i am lukas;</p>
     <br>
     <p>
-    i am currently <strong>studying informatics</strong> while being employed as a working student in the <strong>web development</strong> area at a company in beautiful bavaria, germany; outside of this i am a passionate software developer with a love for open source projects, security and low level programming;
+    i am currently <strong>studying informatics</strong> while being employed as a working student in the <strong>web development</strong> area; outside of this i am a passionate software developer with a love for open source projects, security and low level programming;
     </p>
     <p>
     because of my past in competitive gaming i kind of fell in love with <strong>game development</strong> and especially game engine development; therefore a lot of my free time goes into learning or programming something in that area; as you might guess, i also enjoy <strong>gaming</strong> and <strong>esports</strong>;
