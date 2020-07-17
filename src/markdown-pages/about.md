@@ -16,6 +16,8 @@ description: "asd"
     <p>
     besides that i am just a guy spending his time on the things he enjoys the most; this means that you can usually spot me at one of the following places: at my computer <strong>working on some side project</strong>, in the gym <strong>working out</strong> or on the golf course <strong>trying to not lose too many golf balls</strong>;
     </p>
+    <p>oh, and it seems like i'm an arctic code vault contributor;</p>
+    <img src="/images/arctic_code_vault.png" alt="Arctic Code Vault Contributor">
 </section>
 
 <section>
