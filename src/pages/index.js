@@ -14,10 +14,10 @@ const IndexPage = () => (
             <div className={styles.blocks}>
                 <div className={styles.link_block}>
                     <p>links</p>
-                    <p>&gt; <Link to="/about" title="About me">about</Link></p>
-                    <p>&gt; <Link to="/projects" title="Projects">projects</Link></p>
-                    <p>&gt; <Link to="/work" title="Work">work</Link></p>
-                    <p>&gt; <Link to="/education" title="Education">education</Link></p>
+                    <p>&gt; <Link to="/about/" title="About me">about</Link></p>
+                    <p>&gt; <Link to="/projects/" title="Projects">projects</Link></p>
+                    <p>&gt; <Link to="/work/" title="Work">work</Link></p>
+                    <p>&gt; <Link to="/education/" title="Education">education</Link></p>
                 </div>
                 <div className={styles.contact_block}>
                     <p>contact</p>

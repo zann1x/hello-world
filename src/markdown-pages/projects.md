@@ -1,6 +1,7 @@
 ---
-path: "/projects"
+path: "/projects/"
 title: "projects"
+description: "asd"
 ---
 
 <section>

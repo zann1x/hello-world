@@ -1,6 +1,7 @@
 ---
-path: "/education"
+path: "/education/"
 title: "education"
+description: "asd"
 ---
 
 <section>

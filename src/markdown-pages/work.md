@@ -1,6 +1,7 @@
 ---
-path: "/work"
+path: "/work/"
 title: "work"
+description: "asd"
 ---
 
 <section>

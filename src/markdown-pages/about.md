@@ -1,6 +1,7 @@
 ---
-path: "/about"
+path: "/about/"
 title: "about me"
+description: "asd"
 ---
 
 <section>
