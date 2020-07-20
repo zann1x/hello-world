@@ -24,7 +24,7 @@ description: "some of my personal projects i worked on in my free time"
 
 <section>
     <p><a href="https://github.com/zann1x/hello-world" rel="noopener noreferrer" target="_blank"><strong>hello-world</strong></a> (javascript)</p>
-    <p>the source code for this website; it is completely static site written with gatsbyjs which gets automatically built and deployed on netlify;</p>
+    <p>the source code for this website; it is a completely static site written with gatsbyjs which gets automatically built with github actions and deployed on github pages;</p>
 </section>
 
 <section>
