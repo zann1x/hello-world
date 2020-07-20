@@ -6,13 +6,13 @@ description: "some of my personal projects i worked on in my free time"
 
 <section>
     <p><a href="https://github.com/zann1x/hello-world" rel="noopener noreferrer" target="_blank"><strong>hello-world</strong></a> (javascript)</p>
-    <p>the source code for this website;</p>
+    <p>the source code for this website; it is completely static site written with gatsbyjs which gets automatically built and deployed on netlify;</p>
 </section>
 
 <section>
     <p><a href="https://github.com/zann1x/Potter" rel="noopener noreferrer" target="_blank"><strong>potter</strong></a> (c++)</p>
     <p>
-    my submission to the first game jam i ever attended, the geta game jam 7; the theme of this game jam was "time is a curse"; this is also the first project that is not only a playground project but actually resulted in a complete game made with unreal engine 4; it is a 2d platformer where you have to reach the end point before time runs out;
+    my submission to the first game jam i ever attended, the geta game jam 7; the theme of this game jam was "time is a curse"; it is a 2d platformer where you have to reach the end point before time runs out; this is also the first project that is not only a playground project but actually resulted in a complete game made with unreal engine 4; during a university course, a jenkins continuous integration pipeline and various tests have been added;
     </p>
     <img src="/images/potter_main_menu.png" alt="Potter Main Menu">
 </section>
@@ -34,7 +34,7 @@ description: "some of my personal projects i worked on in my free time"
 <section>
     <p><a href="https://github.com/zann1x/GameOfLifeSFML" rel="noopener noreferrer" target="_blank"><strong>game of life</strong></a> (c++)</p>
     <p>
-    i suppose that everyone has to to do it once, so there you go, ladies and gentleman, conway's game of life;
+    i suppose that everyone has to to do it once, so there you go, ladies and gentleman, conway's game of life; you can either place and remove cells on your own or let the application generate a completely random field;
     </p>
     <img src="/images/game_of_life.png" alt="Game of Life">
 </section>
