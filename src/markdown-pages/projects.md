@@ -5,6 +5,24 @@ description: "some of my personal projects i worked on in my free time"
 ---
 
 <section>
+    <h2>open source contributions</h2>
+    <ul>
+        <li>
+        godot engine (<a href="https://github.com/godotengine/godot/pull/29011" rel="noopener noreferrer" target="_blank">pr #29011</a>)
+        <p>fixed missing padding initialization in the serialization code; this could have resulted in memory leakage over the network;</p>
+        </li>
+        <li>
+        netlify cms (<a href="https://github.com/netlify/netlify-cms/pull/3179" rel="noopener noreferrer" target="_blank">pr #3179</a>)
+        <p>added missing german translations;</p>
+        </li>
+        <li>glfw (<a href="https://github.com/glfw/glfw/pull/1500" rel="noopener noreferrer" target="_blank">PR #1500</a>)</li>
+        <li>scrapengine (<a href="https://github.com/ScrappyCocco/ScrapEngine/pull/34" rel="noopener noreferrer" target="_blank">pr #34</a>)</li>
+        <li>framegraph (<a href="https://github.com/azhirnov/FrameGraph/pull/6" rel="noopener noreferrer" target="_blank">pr #6</a>)</li>
+        <li>web fundamentals (<a href="https://github.com/google/WebFundamentals/pull/8308" rel="noopener noreferrer" target="_blank">pr  #8308</a>)</li>
+    </ul>
+</section>
+
+<section>
     <p><a href="https://github.com/zann1x/hello-world" rel="noopener noreferrer" target="_blank"><strong>hello-world</strong></a> (javascript)</p>
     <p>the source code for this website; it is completely static site written with gatsbyjs which gets automatically built and deployed on netlify;</p>
 </section>
