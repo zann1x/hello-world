@@ -25,20 +25,24 @@ description: "everything you need to know about me regarding what i do and what 
         <li>c</li>
         <li>java</li>
         <li>c++</li>
+        <li>javascript / typescript</li>
         <li>abap</li>
-        <li>javascript</li>
+        <li>sql</li>
     </ul>
-    <p>frameworks and engines</p>
+    <p>frameworks</p>
     <ul>
+        <li>gatsbyjs</li>
+        <li>tailwind css</li>
+        <li>jquery</li>
+        <li>bootstrap</li>
         <li>vulkan</li>
         <li>opengl</li>
-        <li>unreal engine 4</li>
-        <li>gatsbyjs</li>
     </ul>
     <p>software</p>
     <ul>
         <li>git</li>
         <li>docker</li>
+        <li>unreal engine 4</li>
         <li>jenkins</li>
         <li>sap erp</li>
     </ul>
