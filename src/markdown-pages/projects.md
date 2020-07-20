@@ -24,13 +24,18 @@ description: "some of my personal projects i worked on in my free time"
 
 <section>
     <p><a href="https://github.com/zann1x/hello-world" rel="noopener noreferrer" target="_blank"><strong>hello-world</strong></a> (javascript)</p>
-    <p>the source code for this website; it is a completely static site written with gatsbyjs which gets automatically built with github actions and deployed on github pages;</p>
+    <p>the source code for this website; it is a completely static site written with gatsbyjs and styled with css modules; the site gets built automatically with github actions and deployed on github pages;</p>
+</section>
+
+<section>
+    <p><a href="https://github.com/zann1x/enjoyingredients" rel="noopener noreferrer" target="_blank"><strong>enjoyingredients</strong></a> (javascript)</p>
+    <p>a completely static food blogging site made with gatsbyjs and styled with styled components; a selfhosted <a href="https://ghost.org" rel="noopener noreferrer" target="_blank">ghost</a> instance serves as a headless content management system; the site gets automatically build and deployed via netlify;</p>
 </section>
 
 <section>
     <p><a href="https://github.com/zann1x/Potter" rel="noopener noreferrer" target="_blank"><strong>potter</strong></a> (c++)</p>
     <p>
-    my submission to the first game jam i ever attended, the geta game jam 7; the theme of this game jam was "time is a curse"; it is a 2d platformer where you have to reach the end point before time runs out; this is also the first project that is not only a playground project but actually resulted in a complete game made with unreal engine 4; during a university course, a jenkins continuous integration pipeline and various tests have been added;
+    my submission to the first game jam i ever attended, the <a href="https://itch.io/jam/geta-game-jam-7" rel="noopener noreferrer" target="_blank">geta game jam 7</a>; the theme of this game jam was "time is a curse"; it is a 2d platformer where you have to reach the end point before time runs out; all art was drawn by myself; this is also the first project that is not only a playground project but actually resulted in a complete game made with unreal engine 4; during a university course, a jenkins continuous integration pipeline and various tests have been added;
     </p>
     <img src="/images/potter_main_menu.png" alt="Potter Main Menu">
 </section>
@@ -45,7 +50,7 @@ description: "some of my personal projects i worked on in my free time"
 
 <section>
     <p><a href="https://github.com/zann1x/Breakout" rel="noopener noreferrer" target="_blank"><strong>breakout</strong></a> (c++)</p>
-    <p>the classic game breakout made with sfml;</p>
+    <p>the classic game breakout made with sfml; all of the art is self drawn;</p>
     <img src="/images/breakout_start.png" alt="Breakout start screen">
 </section>
 
@@ -60,7 +65,7 @@ description: "some of my personal projects i worked on in my free time"
 <section>
     <p><a href="https://www.youtube.com/user/z4nNIx42" rel="noopener noreferrer" target="_blank"><strong>youtube videos</strong></a></p>
     <p>
-    during my time as a semi-professional battlefield 4 player and in-game leader for myKPV, EnRo Griffins and others i recorded some of our matches from my perspective and put the best clips in small movies together;
+    during my time as a <a href="https://play.eslgaming.com/player/8331376/" rel="noopener noreferrer" target="_blank">semi-professional battlefield 4 player</a> and in-game leader for myKPV, EnRo Griffins and others i recorded some of our matches from my perspective and put the best clips in small movies together;
     </p>
 </section>
 
