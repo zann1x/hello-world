@@ -10,7 +10,6 @@ const IndexPage = () => (
         <SEO title="home" />
 
         <div className={styles.content}>
-            
             <div className={styles.link_block}>
                 <p>lukas@void:~$ ls -l</p>
                 <p>total 4</p>
