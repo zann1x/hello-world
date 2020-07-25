@@ -24,7 +24,7 @@ const SiteTemplate = ({ data }) => {
         <Layout>
             <SEO title={frontmatter.title} description={frontmatter.description} />
             {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
-            <header><div>// <Link to="/">back home</Link></div></header>
+            <header><div><Link to="/">cd ../</Link></div></header>
             <h1>{frontmatter.title}</h1>
             <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
         </Layout>
