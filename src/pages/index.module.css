@@ -1,33 +1,20 @@
 .content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 400px;
+    height: 100vh;
 }
 
 .heading {
     padding: 0.5rem 1rem;
 }
 
-.blocks {
-    height: auto;
-    text-align: center;
+.link_block {
     margin: 1rem 0;
-}
-
-.link_block, .contact_block {
-    display: inline-block;
-    vertical-align: top;
     padding: 1rem 2rem;
     text-align: left;
-}
-@media screen and (min-width: 365px) {
-    .link_block {
-        padding-left: 2.5rem;
-    }
-    .contact_block {
-        padding-right: 2.5rem;
-    }
 }
