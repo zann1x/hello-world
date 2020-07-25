@@ -10,9 +10,10 @@ const IndexPage = () => (
         <SEO title="home" />
 
         <div className={styles.content}>
-            <h1 className={styles.heading}>lukas zanner // software developer</h1>
+            
             <div className={styles.link_block}>
-                <p>$ ls -l</p>
+                <p>lukas@void:~$ ls -l</p>
+                <p>total 4</p>
                 <p><Link to="/about/" title="About me">about/</Link></p>
                 <p><Link to="/projects/" title="Projects">projects/</Link></p>
                 <p><Link to="/work/" title="Work">work/</Link></p>
