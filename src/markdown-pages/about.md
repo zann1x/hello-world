@@ -5,7 +5,8 @@ description: "everything you need to know about me regarding what i do and what 
 ---
 
 <section>
-    <p>hi there, i am lukas;</p>
+    <p>$ whoami</p>
+    <p>lukas</p>
     <br>
     <p>
     i am currently studying informatics while being employed as a working student in the web development area; outside of this i am a passionate software developer with a love for open source projects, security and low level programming;
