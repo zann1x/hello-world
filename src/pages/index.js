@@ -18,8 +18,8 @@ const IndexPage = () => (
                 <p><Link to="/work/" title="Work">work/</Link></p>
                 <p><Link to="/education/" title="Education">education/</Link></p>
             </div>
+            <Footer />
         </div>
-        <Footer />
     </>
 );
 
