@@ -10,8 +10,7 @@ const NotFound = () => (
     <Layout>
         <SEO title="Not found" />
         <header>
-            {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
-            <Link to="/">// back home</Link>
+            <Link to="/">cd /home/lukas/</Link>
         </header>
         <div className={styles.content}>
             <p>looks like you got lost</p>
