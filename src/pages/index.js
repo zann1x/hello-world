@@ -1,10 +1,10 @@
-import React from "react";
-// import { Link } from "gatsby";
-import SEO from "../components/seo";
+import React from 'react';
+// import { Link } from 'gatsby';
+import SEO from '../components/seo';
 
-import styles from "./index.module.css";
-import ExternalLink from "../components/external_link";
-// import Footer from "../components/footer";
+import styles from './index.module.css';
+import ExternalLink from '../components/external_link';
+// import Footer from '../components/footer';
 
 const IndexPage = () => (
     <>
@@ -21,7 +21,10 @@ const IndexPage = () => (
                 <p><Link to="/education/" title="Education">education/</Link></p>
                 */}
                 <p>
-                    <ExternalLink to="mailto:hi@lukaszanner.de?subject=message from lukaszanner.de" title="Email">
+                    <ExternalLink
+                        to="mailto:hi@lukaszanner.de?subject=message from lukaszanner.de"
+                        title="Email"
+                    >
                         mail/
                     </ExternalLink>
                 </p>
@@ -30,11 +33,21 @@ const IndexPage = () => (
                         github/
                     </ExternalLink>
                 </p>
-                <p> <ExternalLink to="https://linkedin.com/in/lukas-zanner" title="LinkedIn">
+                <p>
+                    {' '}
+                    <ExternalLink
+                        to="https://linkedin.com/in/lukas-zanner"
+                        title="LinkedIn"
+                    >
                         linkedin/
                     </ExternalLink>
                 </p>
-                <p> <ExternalLink to="https://www.xing.com/profile/Lukas_Zanner" title="XING">
+                <p>
+                    {' '}
+                    <ExternalLink
+                        to="https://www.xing.com/profile/Lukas_Zanner"
+                        title="XING"
+                    >
                         xing/
                     </ExternalLink>
                 </p>

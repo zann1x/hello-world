@@ -1,9 +1,9 @@
-import React from "react";
-import { graphql, Link } from "gatsby";
-import Layout from "../layouts/layout";
-import SEO from "../components/seo";
+import React from 'react';
+import { graphql, Link } from 'gatsby';
+import Layout from '../layouts/layout';
+import SEO from '../components/seo';
 
-import styles from "./SiteTemplate.module.css";
+import styles from './SiteTemplate.module.css';
 
 export const query = graphql`
     query($path: String!) {
@@ -22,15 +22,21 @@ const SiteTemplate = ({ data }) => {
 
     return (
         <Layout>
-            <SEO title={frontmatter.title} description={frontmatter.description} />
+            <SEO
+                title={frontmatter.title}
+                description={frontmatter.description}
+            />
             {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
             <header>
                 <Link to="/">cd ../</Link>
             </header>
             <h1>{frontmatter.title}</h1>
-            <div className={styles.content} dangerouslySetInnerHTML={{ __html: html }} />
+            <div
+                className={styles.content}
+                dangerouslySetInnerHTML={{ __html: html }}
+            />
         </Layout>
     );
-}
+};
 
 export default SiteTemplate;

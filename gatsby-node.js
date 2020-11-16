@@ -1,7 +1,7 @@
-const path = require(`path`)
+const path = require(`path`);
 
 exports.createPages = async ({ actions, graphql }) => {
-    const { createPage } = actions
+    const { createPage } = actions;
 
     const result = await graphql(`
         {
@@ -15,13 +15,13 @@ exports.createPages = async ({ actions, graphql }) => {
                 }
             }
         }
-    `)
-    
+    `);
+
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
         createPage({
             path: node.frontmatter.path,
             component: path.resolve('./src/templates/SiteTemplate.js'),
-            context: { }
-        })
-    })
-}
+            context: {},
+        });
+    });
+};

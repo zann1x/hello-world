@@ -1,7 +1,7 @@
 ---
-path: "/about/"
-title: "about me"
-description: "everything you need to know about me regarding what i do and what i like"
+path: '/about/'
+title: 'about me'
+description: 'everything you need to know about me regarding what i do and what i like'
 ---
 
 <section>
