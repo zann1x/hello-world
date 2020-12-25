@@ -18,6 +18,13 @@
     <meta name="twitter:site" content="@iamzann1x">
     <meta name="twitter:title" content="lukas zanner">
     <meta name="twitter:description" content="lukas zanner // software developer">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+    <link rel="manifest" href="/manifest.json">
+    <!-- ios support -->
+    <meta name="apple-mobile-web-app-status-bar" content="#2e2e2e">
+    <meta name="theme-color" content="#2e2e2e">
     <style>
         * {
             margin: 0;
@@ -86,5 +93,17 @@
         </main>
     </div>
 </body>
+
+<script>
+    // Enable PWA mode if it is supported by the browser
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function() {
+            navigator.serviceWorker
+                .register("/sw.js")
+                .then(res => console.log("sw registered"))
+                .catch(err => console.log("sw not registered", err))
+        })
+    }
+</script>
 
 </html>
