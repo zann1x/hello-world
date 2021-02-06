@@ -75,6 +75,24 @@
             padding-bottom: 0;
         }
     </style>
+
+    <script type="text/javascript">
+        var _paq = window._paq = window._paq || [];
+        _paq.push(["setDomains", ["*.lukaszanner.de"]]);
+        _paq.push(["disableCookies"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//mat.zanner.dev/";
+            _paq.push(['setTrackerUrl', u + 'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript>
+        <p><img src="//mat.zanner.dev/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p>
+    </noscript>
 </head>
 
 <body>
@@ -97,7 +115,7 @@
 <script>
     // Enable PWA mode if it is supported by the browser
     if ("serviceWorker" in navigator) {
-        window.addEventListener("load", function() {
+        window.addEventListener("load", function () {
             navigator.serviceWorker.register("/sw.js")
         })
     }
