@@ -79,24 +79,18 @@
 </head>
 
 <body>
-    <div style="outline:none" tabindex="-1">
-        <main class="content">
-            <div class="link_block">
-                <p>lukas@void:~$ ls -l</p>
-                <p>total 3</p>
-                <p> <a href="https://github.com/zann1x" title="GitHub" rel="noopener noreferrer"
-                        target="_blank">github/</a></p>
-                <p> <a href="https://linkedin.com/in/lukas-zanner" title="LinkedIn" rel="noopener noreferrer"
-                        target="_blank">linkedin/</a></p>
-                <p> <a href="https://www.xing.com/profile/Lukas_Zanner" title="XING" rel="noopener noreferrer"
-                        target="_blank">xing/</a></p>
-            </div>
-        </main>
-    </div>
+    <main class="content">
+        <div class="link_block">
+            <p>lukas@void:~$ ls -l</p>
+            <p>total 3</p>
+            <p> <a href="https://github.com/zann1x" title="GitHub" rel="noopener" target="_blank">github/</a></p>
+            <p> <a href="https://linkedin.com/in/lukas-zanner" title="LinkedIn" rel="noopener" target="_blank">linkedin/</a></p>
+            <p> <a href="https://www.xing.com/profile/Lukas_Zanner" title="XING" rel="noopener" target="_blank">xing/</a></p>
+        </div>
+    </main>
 </body>
 
 <script>
-    // Enable PWA mode if it is supported by the browser
     if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
             navigator.serviceWorker.register("/sw.js")
