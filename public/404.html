@@ -35,6 +35,7 @@
         }
     </style>
     <script async defer data-domain="lukaszanner.de" src="https://pla.zanner.dev/js/plausible.js"></script>
+    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
 </head>
 
 <body>
@@ -43,6 +44,7 @@
             <p>404 page not found</p>
         </main>
     </div>
+    <script>plausible("404", { props: { path: document.location.pathname } })</script>
 </body>
 
 </html>
