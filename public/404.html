@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charSet="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <title>404</title>
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
     <style>
         * {
             margin: 0;
@@ -23,6 +24,20 @@
             line-height: 1.2rem;
         }
 
+        a {
+            color: inherit;
+            text-decoration: none;
+            padding: 1rem 0;
+        }
+
+        a:hover {
+            color: #bebebe;
+        }
+
+        p {
+            padding: 0.5rem;
+        }
+
         .content {
             display: flex;
             flex-direction: column;
@@ -30,19 +45,25 @@
             text-align: center;
             margin-right: auto;
             margin-left: auto;
+            min-width: 200px;
             max-width: 400px;
             min-height: 100vh;
         }
     </style>
     <script async defer data-domain="lukaszanner.de" src="https://pla.zanner.dev/js/plausible.js"></script>
-    <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+    <script>window.plausible = window.plausible || function () {
+        (window.plausible.q = window.plausible.q || []).push(arguments)
+    }</script>
 </head>
 
 <body>
-    <main class="content">
+<main class="content">
+    <a href="/">
+        <p>(╯°□°)╯︵ ┻━┻</p>
         <p>404 page not found</p>
-    </main>
-    <script>plausible("404", { props: { path: document.location.pathname } })</script>
+    </a>
+</main>
+<script>plausible("404", {props: {path: document.location.pathname}})</script>
 </body>
 
 </html>
