@@ -21,20 +21,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32">
     <style>
-        * {
-            margin: 0;
-        }
-
-        body,
-        html {
-            height: 100%;
-        }
-
         body {
-            background-color: #212121;
-            color: #ececec;
-            font-family: Lucida Console, Monaco, monospace;
-            line-height: 1.2rem;
+            background-color: #111;
+            color: #eee;
+            line-height: 1.8em;
+            font-size: 1rem;
         }
 
         a {
@@ -44,44 +35,18 @@
         a:hover {
             color: #bebebe;
         }
-
-        p {
-            padding-bottom: .75rem;
-        }
-
-        .content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin-right: auto;
-            margin-left: auto;
-            min-width: 250px;
-            max-width: 400px;
-            min-height: 100vh;
-        }
-
-        .link_block {
-            border: 1px solid hsla(0, 0%, 100%, .3);
-            margin: 1rem;
-            padding: 1rem;
-            text-align: left;
-        }
-
-        .link_block p:last-of-type {
-            padding-bottom: 0;
-        }
     </style>
 </head>
 
 <body>
-<main class="content">
-    <div class="link_block">
-        <p>lukas@void:~$ ls -1</p>
-        <p><a href="https://github.com/zann1x" title="GitHub" rel="noopener" target="_blank">github</a></p>
-        <p><a href="https://linkedin.com/in/lukas-zanner" title="LinkedIn" rel="noopener" target="_blank">linkedin</a></p>
-        <p><a href="https://www.xing.com/profile/Lukas_Zanner" title="XING" rel="noopener" target="_blank">xing</a></p>
-    </div>
-</main>
+    <main>
+        <pre>
+[~]$ ls -1
+<a href="https://github.com/zann1x" title="GitHub" rel="noopener" target="_blank">github</a>
+<a href="https://linkedin.com/in/lukas-zanner" title="LinkedIn" rel="noopener" target="_blank">linkedin</a>
+<a href="https://www.xing.com/profile/Lukas_Zanner" title="XING" rel="noopener" target="_blank">xing</a>
+        </pre>
+    </main>
 </body>
 
 </html>
